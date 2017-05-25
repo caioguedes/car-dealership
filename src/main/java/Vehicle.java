@@ -16,4 +16,24 @@ public class Vehicle {
   public boolean worthBuying(int maxPrice){
     return (mPrice < maxPrice);
   }
+
+  public int getPrice() {
+    return mPrice;
+  }
+
+  public int getYear() {
+    return mYear;
+  }
+
+  public String getBrand() {
+    return mBrand;
+  }
+
+  public String getModel() {
+    return mModel;
+  }
+
+  public int getMiles() {
+    return mMiles;
+  }
 }
